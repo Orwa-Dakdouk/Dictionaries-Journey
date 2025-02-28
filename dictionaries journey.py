@@ -33,6 +33,9 @@ company_employees = {
 }
 print(company_employees)
 company_employees["Engineering"]["David"] = {"age":27,"role":"Data Scientist"}
+def countTotalEmployees(company_employees):
+    
+
 
 
 
