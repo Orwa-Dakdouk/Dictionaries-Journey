@@ -1,12 +1,12 @@
 #First Question
-# def merge_dictionaries(dict1,dict2):
-#     mergedDictionary= dict1.copy()
-#     for key,value in dict2.items():
-#         mergedDictionary[key]=value
-#     return mergedDictionary
-# dict1 = {"a":1,"b":2,"c":3}
-# dict2 = {"b":10,"d":4}
-# print(merge_dictionaries(dict1,dict2))
+def merge_dictionaries(dict1,dict2):
+    mergedDictionary= dict1.copy()
+    for key,value in dict2.items():
+        mergedDictionary[key]=value
+    return mergedDictionary
+dict1 = {"a":1,"b":2,"c":3}
+dict2 = {"b":10,"d":4}
+print(merge_dictionaries(dict1,dict2))
 
 
 #Second Question
@@ -42,15 +42,15 @@
 
 
 #Fourth Question
-def invertDictionary(dict1):
-    invertedDictionary = {}
-    for key, value in dict1.items():
-        if value not in invertedDictionary:
-            invertedDictionary[value] = []
-        invertedDictionary[value].append(key)
-    return invertedDictionary
-dict1={"Alice": 10, "Bob": 20, "Charlie": 10, "David": 30}
-print(invertDictionary(dict1))
+# def invertDictionary(dict1):
+#     invertedDictionary = {}
+#     for key, value in dict1.items():
+#         if value not in invertedDictionary:
+#             invertedDictionary[value] = []
+#         invertedDictionary[value].append(key)
+#     return invertedDictionary
+# dict1={"Alice": 10, "Bob": 20, "Charlie": 10, "David": 30}
+# print(invertDictionary(dict1))
 
 
 
