@@ -48,6 +48,7 @@ def invertDictionary(dict1):
         if value not in invertedDictionary:
             invertedDictionary[value] = []
         invertedDictionary[value].append(key)
+    return invertedDictionary
 
 
 
