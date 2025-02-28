@@ -41,6 +41,10 @@
 #     return total
 
 
+#Fourth Question
+def invertDictionary(dict1):
+
+
 
             
         
