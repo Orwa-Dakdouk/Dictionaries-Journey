@@ -18,6 +18,7 @@ for i in words:
         wordNumbsDict[i]+=1
     else:
         wordNumbsDict[i]=1
+ptint(wordNumbsDict)
 
     
     
