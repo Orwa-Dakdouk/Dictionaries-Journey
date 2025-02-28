@@ -44,7 +44,7 @@
 #Fourth Question
 def invertDictionary(dict1):
     invertedDictionary = {}
-    for key, value in dict1.items:
+    for key, value in dict1.items():
         if value not in invertedDictionary:
             invertedDictionary[value] = []
         invertedDictionary[value].append(key)
