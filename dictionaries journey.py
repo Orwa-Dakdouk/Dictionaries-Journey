@@ -38,6 +38,7 @@ def countTotalEmployees(company_employees):
     for section in company_employees.values():
         for employee in section:
             total += 1
+    return total
             
         
     
