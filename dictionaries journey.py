@@ -9,4 +9,9 @@
 # print(merge_dictionaries(dict1,dict2))
 
 
+#Second Question
+sentence=input("Please enter any sentence")
+
+
+
 
