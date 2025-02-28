@@ -1,12 +1,14 @@
 #First Question
-def merge_dictionaries(dict1,dict2):
-    mergedDictionary= dict1.copy()
-    for key,value in dict2.items():
-        mergedDictionary[key]=value
-    return mergedDictionary
-dict1 = {"a":1,"b":2,"c":3}
-dict2 = {"b":10,"d":4}
-print(merge_dictionaries(dict1,dict2))
+# def merge_dictionaries(dict1,dict2):
+#     mergedDictionary= dict1.copy()
+#     for key,value in dict2.items():
+#         mergedDictionary[key]=value
+#     return mergedDictionary
+# dict1 = {"a":1,"b":2,"c":3}
+# dict2 = {"b":10,"d":4}
+# print(merge_dictionaries(dict1,dict2))
+
+#End of question one
 
 
 #Second Question
@@ -19,6 +21,8 @@ print(merge_dictionaries(dict1,dict2))
 #     else:
 #         wordNumbsDict[i]=1
 # print(wordNumbsDict)
+
+#End of question two
 
 
 #Third Question
@@ -40,6 +44,8 @@ print(merge_dictionaries(dict1,dict2))
 #             total += 1
 #     return total
 
+#End of question three
+
 
 #Fourth Question
 # def invertDictionary(dict1):
@@ -51,6 +57,8 @@ print(merge_dictionaries(dict1,dict2))
 #     return invertedDictionary
 # dict1={"Alice": 10, "Bob": 20, "Charlie": 10, "David": 30}
 # print(invertDictionary(dict1))
+
+#End of question four
 
 
 
