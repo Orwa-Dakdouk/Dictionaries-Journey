@@ -44,6 +44,7 @@
 #Fourth Question
 def invertDictionary(dict1):
     invertedDictionary = {}
+    for key, value in dict1.items:
 
 
 
