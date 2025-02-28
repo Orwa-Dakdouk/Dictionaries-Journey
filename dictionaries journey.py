@@ -16,6 +16,9 @@ words=sentence.split()
 for i in words:
     if i in wordNumbsDict:
         wordNumbsDict[i]+=1
+    else:
+        wordNumbsDict[i]=1
+
     
     
 
