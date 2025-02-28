@@ -49,6 +49,7 @@ def invertDictionary(dict1):
             invertedDictionary[value] = []
         invertedDictionary[value].append(key)
     return invertedDictionary
+dict1={"Alice": 10, "Bob": 20, "Charlie": 10, "David": 30}
 
 
 
