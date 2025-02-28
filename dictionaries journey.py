@@ -13,6 +13,9 @@
 sentence=input("Please enter any sentence: ")
 wordNumbsDict={}
 words=sentence.split()
+for i in words:
+    
+
 
 
 
