@@ -43,6 +43,8 @@
 
 #Fourth Question
 def invertDictionary(dict1):
+    invertedDictionary = {}
+
 
 
 
