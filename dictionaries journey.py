@@ -36,6 +36,8 @@ company_employees["Engineering"]["David"] = {"age":27,"role":"Data Scientist"}
 def countTotalEmployees(company_employees):
     total = 0
     for section in company_employees.values():
+        for employee in section:
+            
         
     
     
